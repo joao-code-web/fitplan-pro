@@ -46,7 +46,7 @@ export default function Home() {
   return (
     <div style={{ backgroundColor: "rgb(29,29,29)" }} className="min-h-screen  text-white flex flex-col items-center">
       {/* Barra de Progresso */}
-      <div className="w-full px-4">
+      <div className="w-full">
         <div className="w-full bg-gray-800 h-2 rounded-full">
           <div
             className="h-2 rounded-full transition-all"
@@ -164,7 +164,12 @@ export default function Home() {
           <Question
             question="Você possui alguma lesão ou limitação física?"
             options={[
-              { label: "Sim" },
+              { label: "Joelho" },
+              { label: "Cotovelo" },
+              { label: "Ombro" },
+              { label: "Punho" },
+              { label: "Tornozelo" },
+              { label: "Outros" },
               { label: "Não" },
             ]}
             onAnswer={(answer) => handleAnswer("lesoes", answer)}
