@@ -1,0 +1,36 @@
+.questions {
+    width: 600px;
+}
+
+button {
+    font-size: 25px;
+}
+
+.options {
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .options:hover {
+    background-color: rgba(0, 255, 0, 0.2); /* Verde neon suave no fundo */
+    border: 2px solid #00FF00; /* Borda verde neon */
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.8); /* Sombra verde neon */
+  }
+  
+  .options:active {
+    background-color: rgba(0, 255, 0, 0.4); /* Fundo mais forte ao clicar */
+    box-shadow: 0 0 25px rgba(0, 255, 0, 0.9); /* Sombra mais forte ao clicar */
+  }
+  
+
+@media screen and (max-width: 600px) {
+    .questions {
+       width: 100%; 
+      
+    }
+    button {
+        width: 100%;
+        font-size: 20px;
+        padding: 0px;
+    }
+}

@@ -1,0 +1,61 @@
+/* Container principal */
+.summary-container {
+
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7); /* Sombra suave */
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Título */
+.summary-container h2 {
+  color: #00FF00; /* Verde neon */
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.7); /* Efeito de glow verde */
+}
+
+/* Lista */
+.summary-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.summary-item {
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: #a0a0a0; /* Cinza claro para contraste */
+}
+
+.summary-item span {
+  font-weight: bold;
+  color: #00FF00; /* Verde neon para os valores */
+}
+
+/* Botão de envio */
+.submit-button {
+  width: 100%;
+  background-color: #00FF00;
+  color: #000;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.6);
+}
+
+.submit-button:hover {
+  background-color: #00e600;
+  box-shadow: 0 0 15px rgba(0, 255, 0, 1);
+  transform: scale(1.05);
+}
+
+.submit-button:active {
+  background-color: #00cc00;
+  transform: scale(0.95);
+}
+
+/* Adicionando um efeito de foco para elementos interativos */
+.summary-container :focus {
+  outline: 3px solid #00FF00;
+  outline-offset: 2px;
+}
